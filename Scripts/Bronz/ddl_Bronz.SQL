@@ -8,6 +8,7 @@ if they already exist.
 RUN this script to re-define the DDL structure of the 'Bronz' Tables
 
 =============================================================================================================
+*/
 
 if OBJECT_ID ('Bronz.crm_cust_info','U') IS NOT NULL
 DROP TABLE Bronz.crm_cust_info;
